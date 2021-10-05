@@ -7,19 +7,21 @@
 <body>
  <header class="banner">
   <nav role='navigation' class="nav-table"></nav>
-   <div class="menu">
-    <ul id="navbar">
-     <p id="content-p">Content</p>
-     <li><a href="#test">Test</a></li>
-      <li><a href="index.html">Count</a></li>
-    </ul>
-   </div>
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">First</button>
+      <div id="myDropdown" class="dropdown-content">
+        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+        <a href="index.html">Count</a>
+        <a href="#test">Test</a>
+        <a href="calc.html">Calculator</a>
+      </div>
+    </div>
  </nav>
    <nav class="top-nav">
     <div>
      <a class="logo" href="index.html">
       <img class ="bannerimg" src="img/logotype.jpg" alt="Logotype">
-      <h1 class = "banner-h1">LAB4</h1>
+      <h1 class = "banner-h1">LAB5</h1>
      </a>
     </div>
   </header>
@@ -125,7 +127,7 @@
       <img src="img/logotype.jpg" alt="logotype">
       </a>
     </div>
-   <h2 class="footerheader">Lab4</h2>
+   <h2 class="footerheader">Lab5</h2>
     <div class="footermenu">
         <a href="index.html">Count</a>
         <a href="#test">Test</a>
@@ -139,4 +141,5 @@
   </footer>
 </body>
 <script src="test.js"></script>
+<script src="menu.js"></script>
 </html>
