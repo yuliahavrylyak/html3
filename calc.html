@@ -8,15 +8,21 @@
 <body>
  <header class="banner">
   <nav role='navigation' class="nav-table"></nav>
-  <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">First</button>
-      <div id="myDropdown" class="dropdown-content">
-        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-        <a href="index.html">Count</a>
-        <a href="test.html">Test</a>
-        <a href="#calculator">Calculator</a>
-      </div>
-    </div>
+    <div class="navbar">
+      <a href="index.html">Count</a>
+      <a href="test.html">Test</a>
+      <a href="#calculator">Calculator</a>
+     <div class="dropdown">
+       <button class="dropbtn" onclick="myFunction()">All
+         <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-content" id="myDropdown">
+          <a href="index.html">Count</a>
+          <a href="test.html">Test</a>
+          <a href="#calculator">Calculator</a>
+       </div>
+     </div> 
+   </div>
  </nav>
    <nav class="top-nav">
     <div>
