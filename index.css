@@ -56,19 +56,6 @@
     font-size: 15px;
 }
 
-.footermenu a:hover{
-    color:#eb6d2f;
-}
-
-.outer_bDW:hover{
-    color:green;
-}
-
-.Fes-31:hover{
-    color:#eb6d2f;
-    transition: 01s ease-out;
-}
-
 /* Menu */ 
 nav
 {
